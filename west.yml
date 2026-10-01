@@ -33,6 +33,7 @@ manifest:
     - name: zephyr
       path: zephyr
       url: https://github.com/TexasInstruments/zephyr
+      revision : main
   # zephyr-keep-sorted-stop
 
   self:
