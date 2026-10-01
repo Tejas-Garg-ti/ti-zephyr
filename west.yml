@@ -23,13 +23,9 @@ manifest:
       url-base: https://github.com/zephyrproject-rtos
     - name: TexasInstruments
       url-base: https://github.com/TexasInstruments
-    - name: babblesim
-      url-base: https://github.com/BabbleSim
 
   defaults: 
     remote: zephyrproject-rtos
-
-  group-filter: [-babblesim, -optional, -testing]
 
   #
   # Please add items below based on alphabetical order
@@ -38,10 +34,6 @@ manifest:
     - name: zephyr
       remote: TexasInstruments
       path: zephyr
-      url: https://github.com/TexasInstruments/zephyr
       revision: main
       import: true
-    - name: zephyr-xenlib
-      revision: 8b13d0b709314b7de6cb5877c286d52e71095cc8
-      path: modules/lib/zephyr-xenlib
   # zephyr-keep-sorted-stop
