@@ -39,6 +39,6 @@ manifest:
   # zephyr-keep-sorted-stop
 
   self:
-    path: zephyr
+    path: ti-zephyr
     west-commands: scripts/west-commands.yml
     import: submanifests
