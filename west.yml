@@ -27,7 +27,7 @@ manifest:
       url-base: https://github.com/BabbleSim
 
   defaults: 
-    remote: zephyrporject-rtos
+    remote: zephyrproject-rtos
 
   group-filter: [-babblesim, -optional, -testing]
 
