@@ -33,9 +33,6 @@ manifest:
     - name: zephyr
       path: zephyr
       url: https://github.com/TexasInstruments/zephyr
-    - name: zephyr-xenlib
-      revision: 8b13d0b709314b7de6cb5877c286d52e71095cc8
-      path: modules/lib/zephyr-xenlib
   # zephyr-keep-sorted-stop
 
   self:
